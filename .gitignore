@@ -85,3 +85,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Do not track these on gh-pages branch
+SlyFoxDie/

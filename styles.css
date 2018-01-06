@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Bank Gothic";
+    src: url(./fonts/BankGothicRegular.ttf) format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Bank Gothic";
+    src: url(./fonts/BankGothicBold.ttf) format("truetype");
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+    font-family: "Bank Gothic", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    color: rgb(132, 218, 235);
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.content h2 {
+    color: white;
+}
+
+.content h1, h2 {
+    line-height: 0.2;
+}
+
+.content a {
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: 20px;
+}
+
+.content video {
+    border: 2px solid rgb(5, 72, 85);
+    position: relative;
+    top: 40px;
+}
